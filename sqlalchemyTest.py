@@ -5,7 +5,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 import pymysql
 
-data = {'학번': range(2000, 2017), '성적': [70,60,100,90,50,75,85,99,78,63, 100, 90, 80, 70, 60, 100, 30]}
+data = {'학번': range(2000, 2013), '성적': [70,60,100,90,50,75,85,99,78,63, 100, 90, 100]}
 df = pd.DataFrame(data=data, columns=['학번','성적'])
 print(df)
 
